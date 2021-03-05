@@ -9,35 +9,35 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/modules/my.css":
-/*!****************************!*\
-  !*** ./src/modules/my.css ***!
-  \****************************/
+/***/ "./src/_css/main.css":
+/*!***************************!*\
+  !*** ./src/_css/main.css ***!
+  \***************************/
 /***/ (() => {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack://webpack_practice/./src/modules/my.css?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack://webpack_practice/./src/_css/main.css?");
 
 /***/ }),
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/_js/main.js":
+/*!*************************!*\
+  !*** ./src/_js/main.js ***!
+  \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_my_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/my.js */ \"./src/modules/my.js\");\n/* harmony import */ var _modules_my_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/my.css */ \"./src/modules/my.css\");\n/* harmony import */ var _modules_my_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_modules_my_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nconsole.log('webpack!');\n(0,_modules_my_js__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n\n//# sourceURL=webpack://webpack_practice/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _my_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./my.js */ \"./src/_js/my.js\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_css/main.css */ \"./src/_css/main.css\");\n/* harmony import */ var _css_main_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_main_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nconsole.log('webpack!');\n(0,_my_js__WEBPACK_IMPORTED_MODULE_0__.default)();\n\n\n//# sourceURL=webpack://webpack_practice/./src/_js/main.js?");
 
 /***/ }),
 
-/***/ "./src/modules/my.js":
-/*!***************************!*\
-  !*** ./src/modules/my.js ***!
-  \***************************/
+/***/ "./src/_js/my.js":
+/*!***********************!*\
+  !*** ./src/_js/my.js ***!
+  \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {\n    console.log('this is module');\n});\n\n\n//# sourceURL=webpack://webpack_practice/./src/modules/my.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {\n    console.log('this is module');\n});\n\n\n//# sourceURL=webpack://webpack_practice/./src/_js/my.js?");
 
 /***/ })
 
@@ -112,7 +112,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/index.js");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/_js/main.js");
 /******/ 	
 /******/ })()
 ;
