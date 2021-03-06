@@ -66,7 +66,7 @@ module.exports = {
 		}),
 		new HtmlWebpackPlugin({
 			template:'./src/_template/access.pug',
-			filename; 'access.html',
+			filename: 'access.html',
 		}),
 		new CleanWebpackPlugin(),
 	],
