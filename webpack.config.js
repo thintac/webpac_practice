@@ -12,7 +12,7 @@ module.exports = {
 	module:{
 		rules:[
 			{
-				test:/\.css/,
+				test:/\.(css|sass|scss|less)/,
 				use:[
 					{
 						loader:MiniCssExtractPlugin.loader,
@@ -20,10 +20,13 @@ module.exports = {
 					{
 						loader:'css-loader',
 					},
+					{
+						loader:'sass-loader',
+					},
 				],
 			},
 			{
-				test:/\.jpg|\.png/,
+				test:/\.(jpg|png)/,
 				type: 'asset/resource',
 				generator:{
 					filename:'_img/[name][ext]'
@@ -67,6 +70,10 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			template:'./src/_template/access.pug',
 			filename: 'access.html',
+		}),
+		new HtmlWebpackPlugin({
+			template:'./src/_template/members/taro.pug',
+			filename: 'members/taro.html',
 		}),
 		new CleanWebpackPlugin(),
 	],

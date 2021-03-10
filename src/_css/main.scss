@@ -1,0 +1,23 @@
+@import './footer.scss';
+
+@mixin set ($dir,$v){
+    margin-#{$dir}:$v;
+}
+
+body{
+    color: lightblue ;
+}
+
+$text-color:orange;
+
+.content{
+    .title{
+        font-size:32px;
+        color:$text-color;
+    }
+    .title-lg{
+        @extend .title;
+        font-size:32px;
+    }
+    @include set(right,16px);
+}

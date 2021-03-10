@@ -1,5 +1,14 @@
+.footer {
+  background-color: #ddd; }
 
-body{
-    color: lightblue ;
-}
+body {
+  color: lightblue; }
+
+.content {
+  margin-right: 16px; }
+  .content .title, .content .title-lg {
+    font-size: 32px;
+    color: orange; }
+  .content .title-lg {
+    font-size: 32px; }
 
